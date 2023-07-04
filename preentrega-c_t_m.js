@@ -1,7 +1,13 @@
 // LISTA DE TAREAS 
 
-alert("BIENVENIDOS A LA LISTA DE TAREAS DEL DIA A DIA");
+function hola(nombre){
+    console.log(`Bienvenido ${nombre}.`)
+}
 
+(Bienvenido('Usuario'));   
+
+
+alert("BIENVENID@ A LA LISTA DE TAREAS DEL DIA A DIA");
 
 
 let tareas = prompt ("Escribi el numero de una tarea:");
@@ -41,7 +47,7 @@ let tarea1= confirm("¿Hiciste la tarea numero "+ lista + "?");
 let otratarea= prompt ("¿Realizaste otra tarea SI o NO?");
 
 while(otratarea != "si" && otratarea != "no"){
-    alert("SI o NO");
+    prompt("SI o NO");
 }
 
 if(otratarea == "si"){
